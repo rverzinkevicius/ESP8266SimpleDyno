@@ -25,8 +25,8 @@ void setup() {
   
   Serial.begin(115200);
   
-  attachInterrupt(digitalPinToInterrupt(rpmpin), channel1, FALLING);  //Hall sensor pulls down when activated by magnetic field
-  attachInterrupt(digitalPinToInterrupt(sparkpin), channel2, RISING); //Spark creates voltage Spike
+  attachInterrupt(digitalPinToInterrupt(rpmpin), channel1, RISING); 
+  attachInterrupt(digitalPinToInterrupt(sparkpin), channel2, RISING);
 }
 
 void loop() {
