@@ -25,7 +25,7 @@ void setup() {
   
   Serial.begin(115200);
   
-  attachInterrupt(digitalPinToInterrupt(rpmpin), channel1, RISING); 
+  attachInterrupt(digitalPinToInterrupt(rpmpin), channel1, FALLING); 
   attachInterrupt(digitalPinToInterrupt(sparkpin), channel2, RISING);
 }
 
