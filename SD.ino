@@ -1,3 +1,5 @@
+#include <ESP8266WiFi.h>
+
 
 int sparkpin = D5;
 int rpmpin = D6;
@@ -14,9 +16,13 @@ int rpmpin = D6;
 
 void setup() {
 
+  WiFi.mode( WIFI_OFF );
+  WiFi.forceSleepBegin();
+  delay(300);
+  
   pinMode(rpmpin,INPUT);
   pinMode(sparkpin,INPUT);
-
+  
   Serial.begin(115200);
   
   attachInterrupt(digitalPinToInterrupt(rpmpin), channel1, RISING); 
