@@ -58,8 +58,8 @@ ICACHE_RAM_ATTR void channel1()
 //Interrupt routine for RPM2 - Engine
 ICACHE_RAM_ATTR void channel2()
 {
-if ((micros()-TempTime2)>4000)   //debounce signal. Take MAX RPM of engine and calculate time in micro seconds for full revolution: 
- {                              //   60 000 000/max_RPM  ->  60 000 000 / 15 000  = 4000
+if ((micros()-TempTime2)>3000)   //debounce signal. Take MAX RPM of engine and calculate time in micro seconds for full revolution: 
+ {                              //   60 000 000/max_RPM  ->  60 000 000 / 20 000  = 3000
   TempTime2 = micros();
   time2 = TempTime2-Oldtime2;
   Oldtime2 = TempTime2;
