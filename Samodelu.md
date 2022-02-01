@@ -29,7 +29,7 @@ Accelarate scooter till max RPM. It would be best to lock variator by removing a
 
 Software should open new window with aproximate graph where you will need to select best algorithm (top left dropdown) so that two lines match most.
 
-Deselct check box with on the left with something like "add additional data"
+Deselct check box with on the left with something like "add to existing data"
 
 Click go to analysis
 
