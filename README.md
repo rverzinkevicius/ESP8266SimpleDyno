@@ -2,7 +2,7 @@ SimpleDyno Arduino code adapted for ESP8266 (D1 mini clone).
 Created for YouTube creator SAMODEL.
 
 
-Schematic (use spark pickup part for engine RPM) (i think 1N400x diode should work instead of 1N34A):
+Schematic (use spark pickup part for engine RPM):
 ![img](https://github.com/rverzinkevicius/ignition_advance/blob/40be4a49b2f40b44dd17068b9c1329fb09bade2a/TL1.JPG)
 
 Use Hall part for roller:
