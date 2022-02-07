@@ -3,7 +3,7 @@ Created for YouTube creator SAMODEL.
 
 
 Schematic (use spark pickup part for engine RPM) (i think 1N400x diode should work instead of 1N34A):
-![img](https://github.com/rverzinkevicius/ignition_advance/blob/6b5808ca99b70ae5c71dcf0a31e71d4c4bcaa479/TL1.JPG)
+![img](https://github.com/rverzinkevicius/ignition_advance/blob/40be4a49b2f40b44dd17068b9c1329fb09bade2a/TL1.JPG)
 
 Use Hall part for roller:
 
